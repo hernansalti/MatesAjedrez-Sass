@@ -1,0 +1,72 @@
+/* esto es un comentario css puro */
+/* PALETA DE COLORES */
+/* COLORES PARA FUENTES*/
+/* ESTILOS GRILLAS */
+#grilla {
+  display: width fit-content, height fit-content, display grid, grid-template-areas "titulo titulo titulo titulo" "menu fotos fotos fotos" "menu fotos fotos fotos" "menu fotos fotos fotos"; }
+
+/*OPERACIONES*/
+h1 {
+  font-size: 50px; }
+
+h3 {
+  font-size: 30px; }
+
+p {
+  font-size: 20px; }
+
+.d-flex img {
+  width: 240px; }
+
+.mov {
+  transition: all 1.5s; }
+
+.mov:hover {
+  width: 25vw; }
+
+body {
+  background: url(./../img/fondo3b.png); }
+
+.cubetera {
+  background-color: #1a94aa6b;
+  color: black; }
+
+.espejo {
+  background-color: #1a94aa6b;
+  color: black; }
+
+.vaso {
+  background-color: rgba(0, 0, 0, 0.308);
+  color: white; }
+
+.termo {
+  background-color: rgba(0, 0, 0, 0.308);
+  color: white; }
+
+.batidorCafe {
+  background-color: rgba(0, 0, 0, 0.308);
+  color: white; }
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(rgba(0, 0, 0, 0.486), white); }
+
+.comentarioFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Raleway', sans-serif, bold;
+  font-size: 18px;
+  padding-left: 10px; }
+
+.logoig {
+  display: flex;
+  width: 60px; }
+
+/* SOMBRAS */
+/* ESTILOS SOMBRAS DE FUENTES */
+.som {
+  box-shadow: 3px 3px 5px black; }
